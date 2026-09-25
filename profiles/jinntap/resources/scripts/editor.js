@@ -138,7 +138,6 @@ async function setupFacsimileIntegration(editor, pbFacsimile, baseUri, doc) {
 					// is used to look up the correct facsimile
 					element: facs,
 					file: facs,
-					order: parseInt(n, 10),
 					key: "__default__",
 				},
 			}),
